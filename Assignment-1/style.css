@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 97%;
+  height: 95%;
+  position: relative;
+  padding: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.left {
+  width: 60%;
+  height: 100%;
+  background-color: #fbc70c;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.right {
+  width: 40%;
+  height: 100%;
+  background-color: #fbe8b5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.logo {
+  width: 130px;
+  position: absolute;
+  left: 25px;
+}
+
+h6 {
+  position: absolute;
+  top: 170px;
+  left: 70px;
+  font-size: 45 px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  left: 70px;
+  font-size: 95px;
+}
+
+.description {
+  position: absolute;
+  top: 320px;
+  left: 70px;
+  color: rgb(29, 28, 28);
+}
+
+.count {
+  position: absolute;
+  top: 450px;
+  left: 70px;
+}
+
+.pikachu {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  height: 400px;
+}
+
+.ri-menu-line {
+  position: absolute;
+  top: 5%;
+  right: 25px;
+  font-size: 50px;
+}
+
+.circlebox {
+  position: absolute;
+  bottom: 40%;
+  right: 25px;
+}
+
+.circle {
+  height: 12px;
+  width: 12px;
+  background-color: #fbc70c;
+  border-radius: 50%;
+  margin: 10px;
+}
